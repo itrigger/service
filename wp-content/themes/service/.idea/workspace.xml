@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a80556-c16c-4ecf-ba1d-687cfc27c201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Konstantin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/.sass-cache/b2df687c73e256c64fb5560f54c52d64a028214c/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/.sass-cache/b2df687c73e256c64fb5560f54c52d64a028214c/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/arr-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/arr-left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/arr-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/arr-right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class-twentytwenty-customize.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class-twentytwenty-non-latin-languages.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class-twentytwenty-script-loader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class-twentytwenty-separator-control.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class-twentytwenty-svg-icons.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class-twentytwenty-walker-comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class-twentytwenty-walker-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/custom-css.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/starter-content.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/svg-icons.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/template-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/entry-author-bio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/featured-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/footer-menus-widgets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/modal-menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/modal-search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../wp-includes/class-wp-hook.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-includes/class-wp-hook.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,7 +187,7 @@
       <updated>1576643864119</updated>
       <workItem from="1576643867788" duration="8228000" />
       <workItem from="1576654145245" duration="6885000" />
-      <workItem from="1576666156835" duration="4166000" />
+      <workItem from="1576666156835" duration="4417000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1576661997318</created>
@@ -231,15 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576661997318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1576671363870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576671363871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19279000" />
+    <option name="totallyTimeSpent" value="19530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,7 +249,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
