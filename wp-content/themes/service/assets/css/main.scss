@@ -192,9 +192,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -262,6 +262,7 @@ textarea {
     page-break-after: avoid;
   }
 }
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -270,27 +271,215 @@ textarea {
   clear: both;
   height: 0;
 }
-* html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
+* html .clearfix {
+  zoom: 1;
+}
 
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1;
+}
 
-.in{
+/* IE7 */
+
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+@font-face {
+  font-family: Rubik-Light;
+  src: url(../fonts/Rubik-Light.eot);
+  src: url(../fonts/Rubik-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Light.woff) format("woff"), url(../fonts/Rubik-Light.ttf) format("truetype"), url(../fonts/Rubik-Light.svg#Rubik-Light) format("svg");
+  font-weight: 300;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../fonts/Rubik-Medium.eot);
+  src: url(../fonts/Rubik-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Medium.woff) format("woff"), url(../fonts/Rubik-Medium.ttf) format("truetype"), url(../fonts/Rubik-Medium.svg#Rubik-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Rubik-Bold;
+  src: url(../fonts/Rubik-Bold.eot);
+  src: url(../fonts/Rubik-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Bold.woff) format("woff"), url(../fonts/Rubik-Bold.ttf) format("truetype"), url(../fonts/Rubik-Bold.svg#Rubik-Bold) format("svg");
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Regular.eot);
+  src: url(../fonts/Rubik-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Regular.woff) format("woff"), url(../fonts/Rubik-Regular.ttf) format("truetype"), url(../fonts/Rubik-Regular.svg#Rubik-Regular) format("svg");
+  font-weight: 400;
+  font-style: normal
+}
+
+$blue: #0034D6;
+$blue-hover: #0046F4;
+$yellow: #FF9D00;
+$yellow-hover: #FFA829;
+$rubik: 'Rubik', sans-serif;
+$rubik-medium: 'Rubik-Medium', sans-serif;
+$rubik-bold: 'Rubik-Bold', sans-serif;
+
+* {
+  box-sizing: border-box;
+  font-family: $rubik;
+  font-size: 1em;
+}
+
+.in {
   width: 1280px;
   margin: 0 auto;
 }
 
-.menu{
-  ul{
-    li{
-      ul{
+a {
+  color: $blue;
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 17px 20px;
+  text-align: center;
+  border: 1px solid $blue;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: $rubik-medium;
+  &:hover {
+    background: $blue-hover;
+    color: #fff;
+  }
+  &.btn-blue {
+    color: #fff;
+    background: $blue;
+
+    &:hover {
+      background: $blue-hover;
+    }
+  }
+  &.btn-yellow {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: $rubik-bold;
+    border-color: $yellow;
+    background: $yellow;
+    box-shadow: 1px 5px 10px rgba(#FF9D00, 0.7);
+    &:hover {
+      background: $yellow-hover;
+    }
+  }
+  &.btn-2-line{
+    max-width: 148px;
+    padding: 9px 20px;
+  }
+}
+
+#site-header{
+  .right{
+    float: right;
+    a{
+      display: inline-block;
+      float: left;
+      margin-left: 13px;
+    }
+  }
+}
+
+.logo {
+  background: url(../images/logo.svg) 0 0 no-repeat;
+  background-size: 271px 46px;
+  display: block;
+  width: 271px;
+  height: 46px;
+}
+
+.menu {
+  ul {
+    li {
+      ul {
         display: none;
-        li{
-          ul{
+
+        li {
+          ul {
             display: none;
           }
         }
       }
     }
+  }
+}
+
+.more_w {
+  width: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s all;
+
+  a {
+    position: relative;
+    float: right;
+    text-decoration: none;
+    transition: 0.3s all;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 105px;
+      height: 16px;
+      background: url(../images/arr-right.svg) right 0 no-repeat;
+      background-size: 105px 16px;
+    }
+
+    span {
+      font-size: 11px;
+      color: $blue;
+    }
+  }
+
+  &.prev {
+    width: 105px;
+
+    a {
+      float: right;
+      left: 80px;
+      text-align: right;
+
+      &:before {
+        background: url(../images/arr-left.svg) right 0 no-repeat;
+      }
+    }
+  }
+
+  &:hover {
+    width: 105px;
+
+    &.prev a {
+      transition: 0.3s all;
+      left: 0;
+    }
+  }
+
+}
+
+
+.header-text-block {
+  .btn {
+
+  }
+}
+
+
+.cases-block {
+  .more_w {
+    float: left;
+    margin-right: 10px;
   }
 }

@@ -237,13 +237,133 @@ textarea {
   zoom: 1; }
 
 /* IE7 */
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+@font-face {
+  font-family: Rubik-Light;
+  src: url(../fonts/Rubik-Light.eot);
+  src: url(../fonts/Rubik-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Light.woff) format("woff"), url(../fonts/Rubik-Light.ttf) format("truetype"), url(../fonts/Rubik-Light.svg#Rubik-Light) format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../fonts/Rubik-Medium.eot);
+  src: url(../fonts/Rubik-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Medium.woff) format("woff"), url(../fonts/Rubik-Medium.ttf) format("truetype"), url(../fonts/Rubik-Medium.svg#Rubik-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: Rubik-Bold;
+  src: url(../fonts/Rubik-Bold.eot);
+  src: url(../fonts/Rubik-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Bold.woff) format("woff"), url(../fonts/Rubik-Bold.ttf) format("truetype"), url(../fonts/Rubik-Bold.svg#Rubik-Bold) format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Regular.eot);
+  src: url(../fonts/Rubik-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Regular.woff) format("woff"), url(../fonts/Rubik-Regular.ttf) format("truetype"), url(../fonts/Rubik-Regular.svg#Rubik-Regular) format("svg");
+  font-weight: 400;
+  font-style: normal; }
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 1em; }
+
 .in {
   width: 1280px;
   margin: 0 auto; }
+
+a {
+  color: #0034D6; }
+
+.btn {
+  border-radius: 3px;
+  padding: 17px 20px;
+  text-align: center;
+  border: 1px solid #0034D6;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Rubik-Medium", sans-serif; }
+  .btn:hover {
+    background: #0046F4;
+    color: #fff; }
+  .btn.btn-blue {
+    color: #fff;
+    background: #0034D6; }
+    .btn.btn-blue:hover {
+      background: #0046F4; }
+  .btn.btn-yellow {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Rubik-Bold", sans-serif;
+    border-color: #FF9D00;
+    background: #FF9D00;
+    box-shadow: 1px 5px 10px rgba(255, 157, 0, 0.7); }
+    .btn.btn-yellow:hover {
+      background: #FFA829; }
+  .btn.btn-2-line {
+    max-width: 148px;
+    padding: 9px 20px; }
+
+#site-header .right {
+  float: right; }
+  #site-header .right a {
+    display: inline-block;
+    float: left;
+    margin-left: 13px; }
+
+.logo {
+  background: url(../images/logo.svg) 0 0 no-repeat;
+  background-size: 271px 46px;
+  display: block;
+  width: 271px;
+  height: 46px; }
 
 .menu ul li ul {
   display: none; }
   .menu ul li ul li ul {
     display: none; }
+
+.more_w {
+  width: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s all; }
+  .more_w a {
+    position: relative;
+    float: right;
+    text-decoration: none;
+    transition: 0.3s all; }
+    .more_w a:before {
+      content: '';
+      display: block;
+      width: 105px;
+      height: 16px;
+      background: url(../images/arr-right.svg) right 0 no-repeat;
+      background-size: 105px 16px; }
+    .more_w a span {
+      font-size: 11px;
+      color: #0034D6; }
+  .more_w.prev {
+    width: 105px; }
+    .more_w.prev a {
+      float: right;
+      left: 80px;
+      text-align: right; }
+      .more_w.prev a:before {
+        background: url(../images/arr-left.svg) right 0 no-repeat; }
+  .more_w:hover {
+    width: 105px; }
+    .more_w:hover.prev a {
+      transition: 0.3s all;
+      left: 0; }
+
+.cases-block .more_w {
+  float: left;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */

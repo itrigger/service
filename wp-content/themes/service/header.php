@@ -33,7 +33,7 @@ wp_body_open();
     <div class="slogan"></div>
     <div class="right">
       <a href="#" class="btn btn-blue">Заказать звонок</a>
-      <a href="#" class="btn">Коммерческое предложение</a>
+      <a href="#" class="btn btn-2-line">Коммерческое предложение</a>
     </div>
   </div>
 

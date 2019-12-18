@@ -136,7 +136,7 @@ function twentytwenty_theme_support() {
 	 * Adds `async` and `defer` support for scripts registered or enqueued
 	 * by the theme.
 	 */
-	$loader = new TwentyTwenty_Script_Loader();
+
 	add_filter( 'script_loader_tag', array( $loader, 'filter_script_loader_tag' ), 10, 2 );
 
 }
@@ -147,32 +147,9 @@ add_action( 'after_setup_theme', 'twentytwenty_theme_support' );
  * REQUIRED FILES
  * Include required files.
  */
-require get_template_directory() . '/inc/template-tags.php';
 
-// Handle SVG icons.
-require get_template_directory() . '/classes/class-twentytwenty-svg-icons.php';
-require get_template_directory() . '/inc/svg-icons.php';
 
-// Handle Customizer settings.
-require get_template_directory() . '/classes/class-twentytwenty-customize.php';
 
-// Require Separator Control class.
-require get_template_directory() . '/classes/class-twentytwenty-separator-control.php';
-
-// Custom comment walker.
-require get_template_directory() . '/classes/class-twentytwenty-walker-comment.php';
-
-// Custom page walker.
-require get_template_directory() . '/classes/class-twentytwenty-walker-page.php';
-
-// Custom script loader class.
-require get_template_directory() . '/classes/class-twentytwenty-script-loader.php';
-
-// Non-latin language handling.
-require get_template_directory() . '/classes/class-twentytwenty-non-latin-languages.php';
-
-// Custom CSS.
-require get_template_directory() . '/inc/custom-css.php';
 
 /**
  * Register and Enqueue Styles.
@@ -185,7 +162,7 @@ function twentytwenty_register_styles() {
 	wp_style_add_data( 'twentytwenty-style', 'rtl', 'replace' );
 
 	// Add output of Customizer settings as inline style.
-	wp_add_inline_style( 'twentytwenty-style', twentytwenty_get_customizer_css( 'front-end' ) );
+
 
 	// Add print CSS.
 	wp_enqueue_style( 'twentytwenty-print-style', get_template_directory_uri() . '/print.css', null, $theme_version, 'print' );
@@ -236,13 +213,7 @@ add_action( 'wp_print_footer_scripts', 'twentytwenty_skip_link_focus_fix' );
  *
  * @return void
  */
-function twentytwenty_non_latin_languages() {
-	$custom_css = TwentyTwenty_Non_Latin_Languages::get_non_latin_css( 'front-end' );
 
-	if ( $custom_css ) {
-		wp_add_inline_style( 'twentytwenty-style', $custom_css );
-	}
-}
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_non_latin_languages' );
 

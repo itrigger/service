@@ -9,7 +9,7 @@ get_header();
     <!-- MAIN PAGE -->
     <!-- MAIN PAGE -->
 
-    <div class="text-block">
+    <div class="header-text-block">
       <div class="in">
         <h1>Обеспечим юридическую защиту вашего бизнеса</h1>
         <a href="#" class="btn btn-yellow">Получить консультацию</a>
@@ -63,8 +63,8 @@ get_header();
             <a href="/cases">Кейсы</a>
           </div>
 
-          <div class="more_w prev"><a href="#" class="more"><span>Подробнее</span></a></div>
-          <div class="more_w next"><a href="#" class="more"><span>Подробнее</span></a></div>
+          <div class="more_w prev"><a href="#" class="more"><span>Предыдущий</span></a></div>
+          <div class="more_w next"><a href="#" class="more"><span>Следующий</span></a></div>
 
           <div class="title">
 
