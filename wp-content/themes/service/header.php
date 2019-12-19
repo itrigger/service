@@ -29,41 +29,47 @@ wp_body_open();
 <header id="site-header" class="header-footer-group" role="banner">
 
   <div class="in">
-    <div class="logo"></div>
-    <div class="slogan"></div>
-    <div class="right">
+    <div class="pull-left">
+      <div class="logo pull-left"></div>
+      <div class="slogan pull-left">Специалист в области железнодорожного транспорта</div>
+    </div>
+    <div class="pull-right btn-group">
       <a href="#" class="btn btn-blue">Заказать звонок</a>
       <a href="#" class="btn btn-2-line">Коммерческое предложение</a>
     </div>
+    <div class="clearfix"></div>
   </div>
 
   <div class="in">
     <div class="topmenu_w">
-      <div class="menu">
-        <ul>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Услуги</a>
-            <ul>
-              <li><a href="#">Вложенный пункт 1</a></li>
-              <li><a href="#">Вложенный пункт 2</a>
-                <ul>
-                  <li><a href="#">Вложенный сабпункт 1</a></li>
-                  <li><a href="#">Вложенный сабпункт 2</a></li>
-                  <li><a href="#">Вложенный сабпункт 3</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Вложенный пункт 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Команда</a></li>
-          <li><a href="#">Кейсы</a></li>
-          <li><a href="#">Документы</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
+      <div class="pull-left">
+        <div class="stellarnav">
+          <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Услуги</a>
+              <ul>
+                <li><a href="#">Вложенный пункт 1</a></li>
+                <li><a href="#">Вложенный пункт 2</a>
+                  <ul>
+                    <li><a href="#">Вложенный сабпункт 1</a></li>
+                    <li><a href="#">Вложенный сабпункт 2</a></li>
+                    <li><a href="#">Вложенный сабпункт 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Вложенный пункт 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Команда</a></li>
+            <li><a href="#">Кейсы</a></li>
+            <li><a href="#">Документы</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="right">
+      <div class="pull-right">
         <div class="tel">+7 975 758 98 89</div>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 </header><!-- #site-header -->

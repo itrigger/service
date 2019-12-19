@@ -11,7 +11,8 @@ get_header();
 
     <div class="header-text-block">
       <div class="in">
-        <h1>Обеспечим юридическую защиту вашего бизнеса</h1>
+        <h1>Обеспечим юриди-<br/> ческую защиту<br/> вашего бизнеса</h1>
+        <span class="mobile-header">Обеспечим юридическую защиту вашего бизнеса</span>
         <a href="#" class="btn btn-yellow">Получить консультацию</a>
       </div>
     </div>
