@@ -17,43 +17,61 @@ get_header();
       </div>
     </div>
 
-
-    <div class="services-block">
-      <div class="in">
+    <div class="in2">
+      <div class="services-block">
         <div class="header">Наши <a href="/services">услуги</a></div>
-        <ul>
-          <li class="ico1">
+        <div class="flex-w">
+          <div class="flex3 ico1">
             <div class="li-content">
               <div class="text">Присвоение условных номеров клеймения</div>
               <div class="more_w next"><a href="#" class="more"><span>Подробнее</span></a></div>
             </div>
-          </li>
-          <li class="ico2">
+          </div>
+          <div class="flex3 ico2">
             <div class="li-content">
               <div class="text">Аттестация цехов ремонтных предприятий</div>
               <div class="more_w next"><a href="#" class="more"><span>Подробнее</span></a></div>
             </div>
-          </li>
-          <li class="ico3">
+          </div>
+          <div class="flex3 ico3">
             <div class="li-content">
               <div class="text">Сертификация железнодорожной продукции</div>
               <div class="more_w next"><a href="#" class="more"><span>Подробнее</span></a></div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="benefits-block">
-      <div class="in">
-        <div class="b2">
-          <div class="header">Преимущества работы с нами</div>
+      <div class="in2">
+        <div class="flex">
+          <div class="flex2-3">
+            <div>
+              <div class="header">Преимущества работы с&nbsp;нами</div>
+            </div>
+          </div>
+          <div class="flex1-3 ico1">
+            <div>Команда профессионалов, заинтересованная в&nbsp;результате</div>
+          </div>
+          <div class="flex1-3 ico2">
+            <div>Консультирование по&nbsp;всем этапам работы</div>
+          </div>
+          <div class="flex1-3 ico3">
+            <div>База нормативной и&nbsp;технической документации</div>
+          </div>
+          <div class="flex1-3 ico4">
+            <div>Высокая скорость обработки заявки и&nbsp;получения результатов</div>
+          </div>
+          <div class="flex1-3 ico5">
+            <div>Оказание услуг по&nbsp;принципам «одного окна» <span class="quest"></span></div>
+          </div>
+          <div class="flex-el">
+            <div class="flex-el-in">
+              <div class="more_w long"><a href="#" class="more"><span>Подробнее о нас</span></a></div>
+            </div>
+          </div>
         </div>
-        <div class="b1 ico1">Команда профессионалов, заинтересованная в результате</div>
-        <div class="b1 ico2">Консультирование по всем этапам работы</div>
-        <div class="b1 ico3">База нормативной и технической документации</div>
-        <div class="b1 ico4">Высокая скорость обработки заявки и получения результатов</div>
-        <div class="b1 ico5">Оказание услуг по принципам "одного окна"</div>
       </div>
     </div>
 

@@ -264,7 +264,7 @@ textarea {
   src: url(../fonts/Rubik-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Regular.woff) format("woff"), url(../fonts/Rubik-Regular.ttf) format("truetype"), url(../fonts/Rubik-Regular.svg#Rubik-Regular) format("svg");
   font-weight: 400;
   font-style: normal; }
-.pseudo, .topmenu_w .tel:before {
+.pseudo, .topmenu_w .tel:before, .services-block .ico1:after, .services-block .ico1:before, .services-block .ico2:after, .services-block .ico2:before, .services-block .ico3:before, .benefits-block .flex > div:after, .benefits-block .flex > div > div:before, .benefits-block .ico5:before, .benefits-block .flex2-3:before, .benefits-block .ico2:before, .benefits-block .ico3:before {
   content: '';
   display: block;
   position: absolute; }
@@ -284,8 +284,14 @@ body {
   float: right; }
 
 .in {
-  max-width: 1280px;
+  max-width: 1240px;
+  padding: 0 20px;
   margin: 0 auto; }
+
+.in2 {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px; }
 
 a {
   color: #0034D6; }
@@ -852,8 +858,10 @@ body.stellarnav-noscroll-x {
       background: url(../images/arr-right.svg) right 0 no-repeat;
       background-size: 105px 16px; }
     .more_w a span {
-      font-size: 11px;
-      color: #0034D6; }
+      font-size: 13px;
+      color: #0034D6;
+      opacity: 0;
+      transition: 0.3s all; }
   .more_w.prev {
     width: 105px; }
     .more_w.prev a {
@@ -864,6 +872,9 @@ body.stellarnav-noscroll-x {
         background: url(../images/arr-left.svg) right 0 no-repeat; }
   .more_w:hover {
     width: 105px; }
+    .more_w:hover span {
+      opacity: 1;
+      transition: 0.3s all; }
     .more_w:hover.prev a {
       transition: 0.3s all;
       left: 0; }
@@ -880,8 +891,175 @@ body.stellarnav-noscroll-x {
     margin-top: 48px;
     padding: 21px 37px; }
 
+.services-block .header,
+.benefits-block .header {
+  font-size: 31px;
+  font-family: "Rubik-Bold", sans-serif; }
+
 .services-block {
-  margin: 0 4px; }
+  margin: 0 4px 68px;
+  padding: 26px 0 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
+  .services-block .ico1:after {
+    background: url("../images/ser-sha.png") 0 0 no-repeat;
+    background-size: 34px 115px;
+    width: 34px;
+    height: 115px;
+    right: 20px;
+    top: 0; }
+  .services-block .ico1:before {
+    width: 51px;
+    height: 51px;
+    background: url("../images/num1.svg") 0 0 no-repeat;
+    background-size: 51px 51px;
+    left: 0;
+    top: 15px; }
+  .services-block .ico2:after {
+    background: url("../images/ser-sha.png") 0 0 no-repeat;
+    background-size: 34px 115px;
+    width: 34px;
+    height: 115px;
+    right: 20px;
+    top: 0; }
+  .services-block .ico2:before {
+    width: 51px;
+    height: 51px;
+    background: url("../images/num2.svg") 0 0 no-repeat;
+    background-size: 51px 51px;
+    left: 0;
+    top: 15px; }
+  .services-block .ico3:before {
+    width: 51px;
+    height: 51px;
+    background: url("../images/num3.svg") 0 0 no-repeat;
+    background-size: 51px 51px;
+    left: 0;
+    top: 15px; }
+  .services-block .li-content {
+    padding: 18px 40px 0 65px; }
+    .services-block .li-content .text {
+      font-family: "Rubik-Bold", sans-serif;
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 9px; }
+
+.flex-w {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: calc(100% + 32px);
+   margin-left: -16px;
+   margin-right: -16px;*/
+  justify-content: center; }
+
+.flex3 {
+  width: 33%;
+  max-width: 33%;
+  flex: 0 0 33%;
+  flex-direction: column;
+  position: relative; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+.flex2-3 {
+  width: 66%;
+  max-width: 66%;
+  flex: 2 1 66%;
+  flex-direction: column;
+  position: relative; }
+
+.flex1-3 {
+  width: 33%;
+  max-width: 33%;
+  flex: 1 1 33%;
+  flex-direction: column;
+  position: relative; }
+
+.benefits-block {
+  position: relative; }
+  .benefits-block .flex > div {
+    font-size: 18px;
+    position: relative; }
+    .benefits-block .flex > div:after {
+      width: 100%;
+      height: 1px;
+      background: #ccc;
+      bottom: 0; }
+    .benefits-block .flex > div > div {
+      padding: 17px 30px 17px 105px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      position: relative; }
+    .benefits-block .flex > div.flex2-3 > div {
+      padding-left: 0;
+      padding-top: 0; }
+  .benefits-block .ico5:before, .benefits-block .flex2-3:before, .benefits-block .ico2:before, .benefits-block .ico3:before {
+    width: 1px;
+    height: 80%;
+    background: #ccc;
+    right: 0;
+    top: 10%; }
+  .benefits-block .ico5 > div, .benefits-block .flex2-3 > div, .benefits-block .ico2 > div, .benefits-block .ico3 > div {
+    border-right: 1px solid #ccc; }
+  .benefits-block .ico5:after {
+    display: none !important; }
+  .benefits-block .ico1 > div:before {
+    background: url("../images/service1.svg") 0 0 no-repeat;
+    width: 71px;
+    height: 57px;
+    background-size: 71px 57px;
+    left: 17px;
+    top: 0; }
+  .benefits-block .ico2 > div:before {
+    background: url("../images/service2.svg") 0 0 no-repeat;
+    width: 68px;
+    height: 57px;
+    background-size: 68px 57px;
+    left: 17px;
+    top: 3px; }
+  .benefits-block .ico3 > div:before {
+    background: url("../images/service3.svg") 0 0 no-repeat;
+    width: 63px;
+    height: 58px;
+    background-size: 63px 58px;
+    left: 17px;
+    top: 3px; }
+  .benefits-block .ico4 > div:before {
+    background: url("../images/service4.svg") 0 0 no-repeat;
+    width: 63px;
+    height: 56px;
+    background-size: 63px 56px;
+    left: 17px;
+    top: 3px; }
+  .benefits-block .ico5 > div:before {
+    background: url("../images/service5.svg") 0 0 no-repeat;
+    width: 63px;
+    height: 56px;
+    background-size: 63px 56px;
+    left: 17px;
+    top: 3px; }
+  .benefits-block .flex-el {
+    width: 66%;
+    max-width: 66%;
+    flex: 2 1 66%;
+    flex-direction: column;
+    flex-flow: row-reverse;
+    justify-content: flex-start;
+    display: flex; }
+    .benefits-block .flex-el > div {
+      padding: 0 !important; }
+    .benefits-block .flex-el:after {
+      display: none !important; }
+    .benefits-block .flex-el .flex-el-in {
+      width: 115px;
+      max-width: 115px;
+      flex: 1 1 115px;
+      flex-direction: column;
+      position: relative; }
+    .benefits-block .flex-el .more_w {
+      margin-top: 50%; }
 
 .cases-block .more_w {
   float: left;

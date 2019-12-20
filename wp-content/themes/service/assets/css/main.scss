@@ -350,8 +350,14 @@ body{
 }
 
 .in {
-  max-width: 1280px;
+  max-width: 1240px;
+  padding: 0 20px;
   margin: 0 auto;
+}
+.in2{
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 a {
@@ -487,7 +493,6 @@ a {
   overflow: hidden;
   position: relative;
   transition: 0.3s all;
-
   a {
     position: relative;
     float: right;
@@ -504,8 +509,10 @@ a {
     }
 
     span {
-      font-size: 11px;
+      font-size: 13px;
       color: $blue;
+      opacity: 0;
+      transition: 0.3s all;
     }
   }
 
@@ -525,7 +532,10 @@ a {
 
   &:hover {
     width: 105px;
-
+    span{
+      opacity: 1;
+      transition: 0.3s all;
+    }
     &.prev a {
       transition: 0.3s all;
       left: 0;
@@ -551,8 +561,220 @@ a {
   }
 }
 
+.services-block,
+.benefits-block
+{
+  .header{
+    font-size: 31px;
+    font-family: $rubik-bold;
+  }
+}
+
 .services-block{
-  margin: 0 4px;
+  margin: 0 4px 68px;
+  padding: 26px 0 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(#000, 0.1);
+  .ico1:after{
+    @extend .pseudo;
+    background: url('../images/ser-sha.png') 0 0 no-repeat;
+    background-size: 34px 115px;
+    width: 34px;
+    height: 115px;
+    right: 20px;
+    top: 0;
+  }
+  .ico1:before{
+    @extend .pseudo;
+    width: 51px;
+    height: 51px;
+    background: url('../images/num1.svg') 0 0 no-repeat;
+    background-size: 51px 51px;
+    left: 0;
+    top: 15px;
+  }
+  .ico2:after{
+    @extend .pseudo;
+    background: url('../images/ser-sha.png') 0 0 no-repeat;
+    background-size: 34px 115px;
+    width: 34px;
+    height: 115px;
+    right: 20px;
+    top: 0;
+  }
+  .ico2:before{
+    @extend .pseudo;
+    width: 51px;
+    height: 51px;
+    background: url('../images/num2.svg') 0 0 no-repeat;
+    background-size: 51px 51px;
+    left: 0;
+    top: 15px;
+  }
+  .ico3:before{
+    @extend .pseudo;
+    width: 51px;
+    height: 51px;
+    background: url('../images/num3.svg') 0 0 no-repeat;
+    background-size: 51px 51px;
+    left: 0;
+    top: 15px;
+  }
+  .li-content{
+    padding: 18px 40px 0 65px;
+    .text{
+      font-family:  $rubik-bold;
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 9px;
+    }
+  }
+}
+
+.flex-w{
+  display: flex;
+  flex-wrap: wrap;
+ /* width: calc(100% + 32px);
+  margin-left: -16px;
+  margin-right: -16px;*/
+  justify-content: center;
+}
+  .flex3{
+    width: 33%;
+    max-width: 33%;
+    flex: 0 0 33%;
+    flex-direction: column;
+    position: relative;
+  }
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+  .flex2-3{
+    width: 66%;
+    max-width: 66%;
+    flex: 2 1 66%;
+    flex-direction: column;
+    position: relative;
+  }
+  .flex1-3{
+    width: 33%;
+    max-width: 33%;
+    flex: 1 1 33%;
+    flex-direction: column;
+    position: relative;
+  }
+
+
+.benefits-block{
+  position: relative;
+  .flex>div{
+    font-size: 18px;
+    position: relative;
+    &:after{
+      @extend .pseudo;
+      width: 100%;
+      height: 1px;
+      background: #ccc;
+      bottom: 0;
+    }
+    &>div{
+      padding: 17px 30px 17px 105px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      position: relative;
+      &:before{
+        @extend .pseudo;
+      }
+    }
+    &.flex2-3>div{
+      padding-left: 0;
+      padding-top: 0;
+    }
+  }
+  .ico5, .flex2-3, .ico2, .ico3{
+    &:before{
+      @extend .pseudo;
+      width: 1px;
+      height: 80%;
+      background: #ccc;
+      right: 0;
+      top: 10%;
+    }
+    &>div {
+      border-right: 1px solid #ccc;
+    }
+  }
+  .ico5:after{
+    display: none !important;
+  }
+  .ico1>div:before{
+    background: url('../images/service1.svg') 0 0 no-repeat;
+    width: 71px;
+    height: 57px;
+    background-size: 71px 57px;
+    left: 17px;
+    top: 0;
+  }
+  .ico2>div:before{
+    background: url('../images/service2.svg') 0 0 no-repeat;
+    width: 68px;
+    height: 57px;
+    background-size: 68px 57px;
+    left: 17px;
+    top: 3px;
+  }
+  .ico3>div:before{
+    background: url('../images/service3.svg') 0 0 no-repeat;
+    width: 63px;
+    height: 58px;
+    background-size: 63px 58px;
+    left: 17px;
+    top: 3px;
+  }
+  .ico4>div:before{
+    background: url('../images/service4.svg') 0 0 no-repeat;
+    width: 63px;
+    height: 56px;
+    background-size: 63px 56px;
+    left: 17px;
+    top: 3px;
+  }
+  .ico5>div:before{
+    background: url('../images/service5.svg') 0 0 no-repeat;
+    width: 63px;
+    height: 56px;
+    background-size: 63px 56px;
+    left: 17px;
+    top: 3px;
+  }
+
+  .flex-el{
+    width: 66%;
+    max-width: 66%;
+    flex: 2 1 66%;
+    flex-direction: column;
+    flex-flow: row-reverse;
+    justify-content: flex-start;
+    display: flex;
+    &>div{
+      padding: 0 !important;
+    }
+    &:after{
+      display: none !important;
+    }
+    .flex-el-in{
+      width: 115px;
+      max-width: 115px;
+      flex: 1 1 115px;
+      flex-direction: column;
+      position: relative;
+    }
+    .more_w{
+      margin-top: 50%;
+    }
+  }
 }
 
 .cases-block {
@@ -560,6 +782,7 @@ a {
     float: left;
     margin-right: 10px;
   }
+
 }
 
 
