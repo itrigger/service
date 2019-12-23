@@ -2,15 +2,434 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a80556-c16c-4ecf-ba1d-687cfc27c201" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/_admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/blue/colors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/coffee/colors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ectoplasm/colors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/light/colors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/midnight/colors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/ocean/colors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-admin/css/colors/sunrise/colors.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/logs/db_backup_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/logs/http_error_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/logs/mscan_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/master-backups/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/master-backups/UserAgentMaster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/master-backups/mscan-stop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/master-backups/root.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/master-backups/root.htaccess-2019-12-18-8-10-01-am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/mscan/mscan-pattern-match.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bps-backup/wp-hashes/wp-hashes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/bulletproof-security-ru_RU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/bulletproof-security-ru_RU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/contact-form-7-ru_RU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/contact-form-7-ru_RU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/disable-gutenberg-ru_RU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/disable-gutenberg-ru_RU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/hello-dolly-ru_RU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/plugins/hello-dolly-ru_RU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../languages/themes/twentytwenty-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/../../languages/themes/twentytwenty-ru_RU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mu-plugins/bps-mu-tools.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/400.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/403.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/405.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/410.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/core/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/core/core-custom-code.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/core/core-export-import.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/core/core-forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/core/core-help-text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/core/core-htaccess-code.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/core/core.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/css/bps-black-ui-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/css/bps-blue-ui-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/css/bps-grey-ui-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/db-backup-security/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/db-backup-security/db-backup-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/db-backup-security/db-backup-help-text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/db-backup-security/db-backup-security.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/email-log-settings/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/email-log-settings/email-log-settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/blank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/bps-maintenance-values.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/bps-maintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/bps-mu-tools.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/db_backup_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/default.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/deny-all-ifmodule.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/deny-all.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/http_error_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/maintenance-mode-index-GWIOD.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/maintenance-mode-index-MU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/maintenance-mode-index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/maintenance-mode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/mscan_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/sec-log-master.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/secure.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/wp-hashes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/htaccess/wpadmin-secure.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/accordion-btn-over.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/accordion-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/aitpro-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/bps-free-logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/bps-icon-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/bps-pro-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/bps-spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/buttons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/close-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/dashboard-status-display.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/menu-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/menu-btn-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/menu-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/menu_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/menu_btn_over.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/pre_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/question-mark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/table_title_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/white-grad-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/images/white-grad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/includes/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/includes/uninstall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/bps-encryption.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/bps-mscan-ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/bps-ui-accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/bps-ui-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/bps-ui-tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/aes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/cipher-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/crypto-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/docs/QuickStartGuide.wiki" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/enc-base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/enc-hex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/enc-latin1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/enc-utf16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/enc-utf8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/evpkdf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/format-hex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/format-openssl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-ripemd160.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-sha224.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-sha256.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-sha3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-sha384.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac-sha512.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/hmac.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/lib-typedarrays.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/mode-cfb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/mode-ctr-gladman.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/mode-ctr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/mode-ecb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/mode-ofb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/pad-ansix923.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/pad-iso10126.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/pad-iso97971.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/pad-nopadding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/pad-pkcs7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/pad-zeropadding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/pbkdf2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/rabbit-legacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/rabbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/rc4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/ripemd160.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/sha224.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/sha256.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/sha3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/sha384.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/sha512.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/tripledes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/js/crypto-js/x64-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/login/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/login/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/login/lsm-export.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/login/lsm-help-text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/maintenance/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/maintenance/maintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_access_compat-od-allowed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_access_compat-od-denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_access_compat-od-nc-allowed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_access_compat-od-nc-denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_authz_core-denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_authz_core-nc-denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_authz_core-od-cond-denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_authz_host-nc-require-host.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_authz_host-od-cond-denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_authz_host-require-ip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_rewrite-cond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_rewrite-nc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_security-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/mod_security.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mod-test/pre_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mscan/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mscan/mscan-help-text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/mscan/mscan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/security-log/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/security-log/security-log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/system-info/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/system-info/system-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/theme-skin/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/theme-skin/theme-skin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/wizard/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/wizard/pwizard-autofix-setup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/wizard/pwizard-autofix.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/wizard/wizard-backup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/wizard/wizard-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/admin/wizard/wizard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/bulletproof-security.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/forbidden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/basic-black-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/black-honeycomb-large-grey-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/black-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/black-mesh-small-grey-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/black-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/black-veins-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/blue-glass-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/blue-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/blue-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/brown-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/brown-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/brush-metal-stamped-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/chrome-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/fire-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/green-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/green-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/grey-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/grey-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/gun-metal-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/mercury-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/orange-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/orange-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/purple-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/purple-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/red-burgundy-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/red-burgundy-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/slick-chrome-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/smoke-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/striped-cone-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/swamp-bevel-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/toy-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/water-reflection-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/wood-grain-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/yellow-honeycomb-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/images/yellow-mesh-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/db-security.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/encrypt-decrypt-class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/general-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/hidden-plugin-folders-cron.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/hud-autofix-setup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/hud-autofix-whitelist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/hud-dismiss-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/idle-session-logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/login-security.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/mscan-ajax-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/includes/zip-email-cron-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/isl-logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/languages/bulletproof-security.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/bulletproof-security/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/css/styles-dark-mode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/css/styles-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/edit-contact-form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/includes/admin-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/includes/config-validator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/includes/editor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/includes/help-tabs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/includes/tag-generator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/includes/welcome-panel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/js/tag-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/capabilities.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/config-validator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/contact-form-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/contact-form-template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/contact-form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/css/styles-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/form-tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/form-tags-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/formatting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/l10n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/pipe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/rest-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/shortcodes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/special-mail-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/submission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/languages/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/acceptance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/akismet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/checkbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/constant-contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/count.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/date.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/file.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/flamingo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/hidden.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/listo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/number.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/quiz.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/really-simple-captcha.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/recaptcha.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/submit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/textarea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/uninstall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/wp-contact-form-7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Konstantin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/.sass-cache/b2df687c73e256c64fb5560f54c52d64a028214c/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/.sass-cache/b2df687c73e256c64fb5560f54c52d64a028214c/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/MariaDB-10.3-x64/service/db.opt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/MariaDB-10.3-x64/service/db.opt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/editor-style-block-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/editor-style-block-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/editor-style-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/editor-style-block.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/editor-style-classic-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/editor-style-classic-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/editor-style-classic.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/editor-style-classic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/site-13.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/site-14.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/site-15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Bold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Medium.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Rubik-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Rubik-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/2E00D4C8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/73F28081.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/76B7423B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/E80F2913.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/site-09.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/site-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/site-11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/site-12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/site-19.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/color-calculations.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/color-calculations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/customize-controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/customize-controls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/customize-preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/customize-preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/customize.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/customize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/editor-script-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/editor-script-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/skip-link-focus-fix.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skip-link-focus-fix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/modernizr-3.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vendor/modernizr-3.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/stellarnav.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vendor/stellarnav.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/humans.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singular.php" beforeDir="false" afterPath="$PROJECT_DIR$/singular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/style-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-cover.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-cover.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/entry-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/entry-header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template-cover.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template-cover.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template-full-width.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template-full-width.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-includes/class-wp-hook.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-includes/class-wp-hook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-includes/feed.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-includes/feed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-includes/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-includes/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wp-includes/version.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,72 +464,7 @@
     <favorites_list name="service" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/images/1x/Монтажная область 148-100.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="52" column="74" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-              <folding>
-                <element signature="e#1644#1650#0#HTML" expanded="true" />
-                <element signature="e#1745#1751#0#HTML" expanded="true" />
-                <element signature="e#1823#1829#0#HTML" expanded="true" />
-                <element signature="e#1908#1914#0#HTML" expanded="true" />
-                <element signature="e#2016#2022#0#HTML" expanded="true" />
-                <element signature="e#2103#2109#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="774" column="22" selection-start-line="774" selection-start-column="22" selection-end-line="774" selection-end-column="22" />
-              <folding>
-                <element signature="e#19144#19150#0" />
-                <element signature="e#9448#10209#0" />
-                <element signature="e#10231#10248#0" />
-                <element signature="e#21405#21411#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -161,36 +515,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +559,8 @@
       <workItem from="1576643867788" duration="8228000" />
       <workItem from="1576654145245" duration="6885000" />
       <workItem from="1576666156835" duration="4459000" />
-      <workItem from="1576729118785" duration="23362000" />
+      <workItem from="1576729118785" duration="24119000" />
+      <workItem from="1577075853063" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1576661997318</created>
@@ -262,16 +590,23 @@
       <option name="project" value="LOCAL" />
       <updated>1576759239971</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4">
+      <created>1576845508683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576845508683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42934000" />
+    <option name="totallyTimeSpent" value="44774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.110341154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.11140725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -311,7 +646,8 @@
     <MESSAGE value="2" />
     <MESSAGE value="DB" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -369,25 +705,11 @@
     <entry file="file://$PROJECT_DIR$/assets/images/arr-left.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="52" column="74" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/arr-menu-down.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/ico-phone.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/num1.svg">
       <provider selected="true" editor-type-id="images" />
@@ -410,41 +732,41 @@
     <entry file="file://$PROJECT_DIR$/assets/images/service5.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+    <entry file="file://$PROJECT_DIR$/assets/images/1x/Монтажная область 148-100.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="714">
+          <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/1x/Монтажная область 148-100.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="e#1644#1650#0#HTML" expanded="true" />
-            <element signature="e#1745#1751#0#HTML" expanded="true" />
-            <element signature="e#1823#1829#0#HTML" expanded="true" />
-            <element signature="e#1908#1914#0#HTML" expanded="true" />
-            <element signature="e#2016#2022#0#HTML" expanded="true" />
-            <element signature="e#2103#2109#0#HTML" expanded="true" />
-          </folding>
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="774" column="22" selection-start-line="774" selection-start-column="22" selection-end-line="774" selection-end-column="22" />
-          <folding>
-            <element signature="e#19144#19150#0" />
-            <element signature="e#9448#10209#0" />
-            <element signature="e#10231#10248#0" />
-            <element signature="e#21405#21411#0" />
-          </folding>
+        <state relative-caret-position="623">
+          <caret line="772" column="24" lean-forward="true" selection-start-line="772" selection-start-column="24" selection-end-line="772" selection-end-column="24" />
         </state>
       </provider>
     </entry>

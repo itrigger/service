@@ -64,7 +64,10 @@ get_header();
             <div>Высокая скорость обработки заявки и&nbsp;получения результатов</div>
           </div>
           <div class="flex1-3 ico5">
-            <div>Оказание услуг по&nbsp;принципам «одного окна» <span class="quest"></span></div>
+            <div>Оказание услуг по&nbsp;принципам «одного окна» <i class="tooltip maxonly" title="Специалисты компании оказывают услуги
+по принципу «одного окна» и берут на себя
+все необходимые согласования
+с причастными структурами."></i></div>
           </div>
           <div class="flex-el">
             <div class="flex-el-in">
@@ -75,29 +78,37 @@ get_header();
       </div>
     </div>
 
-    <div class="cases-block">
-      <div class="in">
-        <div class="top">
-          <div class="header">
-            <a href="/cases">Кейсы</a>
+    <div class="pattern">
+      <div class="in2">
+        <div class="cases-block">
+          <div class="top">
+            <div class="header">
+              <a href="/cases">Кейсы</a>
+            </div>
+            <div class="more_w_w">
+              <div class="more_w prev"><a href="#" class="more"><span>Предыдущий</span></a></div>
+              <div class="more_w next"><a href="#" class="more"><span>Следующий</span></a></div>
+            </div>
+            <div class="title_w">
+              <div class="title">
+                <div class="header">ООО «ВРК «СИБИРЬ»</div>
+                Деятельность: комплексный ремонт грузовых вагонов и колесных пар.<br>
+                Дислокация: г. Новосибирск.
+              </div>
+            </div>
+            <div class="clearfix"></div>
           </div>
 
-          <div class="more_w prev"><a href="#" class="more"><span>Предыдущий</span></a></div>
-          <div class="more_w next"><a href="#" class="more"><span>Следующий</span></a></div>
-
-          <div class="title">
-
+          <div class="case">
+            <div class="pull-left">Задача</div>
+            <div class="pull-right">Создать пункт текущего отцепочного ремонта грузовых вагонов с нуля на площадке
+              Топкинского
+              цементного завода.
+            </div>
           </div>
-          <div class="clearfix"></div>
-        </div>
-
-        <div class="case">
-          <div class="left">Задача</div>
-          <div class="right">Создать пункт текущего отцепочного ремонта грузовых вагонов с нуля на площадке Топкинского
-            цементного завода.
+          <div class="center">
+            <a href="#" class="btn btn-yellow">Решение и результат</a>
           </div>
-          <div class="clearfix"></div>
-          <a href="#" class="btn btn-yellow">Решение и результат</a>
         </div>
       </div>
     </div>
@@ -105,12 +116,12 @@ get_header();
     <div class="contact-block">
       <div class="in">
         <div class="header">Наши <a href="/contacts">контакты</a></div>
-        <div class="line">
+        <div class="line flex">
           <div class="b1">Москва, Маслова пр-т, д. 46, оф. 6</div>
           <div class="b2"><a href="mailto:info@rk-company.ru">info@rk-company.ru</a></div>
           <div class="b3">+7 975 758 98 89</div>
           <div class="b4">
-            <ul>
+            <ul class="social-links">
               <li><a href="#" class="ico-vk"></a></li>
               <li><a href="#" class="ico-fb"></a></li>
               <li><a href="#" class="ico-wu"></a></li>
@@ -120,9 +131,22 @@ get_header();
         </div>
       </div>
       <div class="map">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af1381e2cb3858b023e074cef51bacc13016003f77326471f72a39a70011fd006&amp;source=constructor" width="100%" height="555" frameborder="0"></iframe>
         <div class="in">
           <div class="form">
-
+              <div class="header">У вас есть вопросы?</div>
+            <div>
+                <input type="text"placeholder="Имя" />
+            </div>
+            <div>
+              <input type="text"placeholder="Email или телефон" />
+            </div>
+            <div>
+              <textarea placeholder="Вопрос"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit">
+            </div>
           </div>
         </div>
       </div>

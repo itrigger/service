@@ -25,6 +25,7 @@
 <?php
 wp_body_open();
 ?>
+<div class="body_wrapper">
 
 <header id="site-header" class="header-footer-group" role="banner">
 
@@ -46,17 +47,18 @@ wp_body_open();
         <div class="stellarnav">
           <ul>
             <li><a href="#">О нас</a></li>
-            <li><a href="#">Услуги</a>
+            <li><a href="/service">Услуги</a>
               <ul>
-                <li><a href="#">Вложенный пункт 1</a></li>
-                <li><a href="#">Вложенный пункт 2</a>
+                <li><a href="#">Присвоение условных номеров клеймения</a></li>
+                <li class="active"><a href="#">Аттестация цехов ремонтных предприятий</a>
                   <ul>
-                    <li><a href="#">Вложенный сабпункт 1</a></li>
-                    <li><a href="#">Вложенный сабпункт 2</a></li>
-                    <li><a href="#">Вложенный сабпункт 3</a></li>
+                    <li><a href="#">Аттестация тележечных отделений</a></li>
+                    <li><a href="#">Аттестация колесно-роликовых участков</a></li>
+                    <li class="active"><a href="#">Аттестация контрольных пунктов автотормозов и автоматных отделений</a></li>
+                    <li><a href="#">Аттестация участков неразрущающего контроля</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Вложенный пункт 3</a></li>
+                <li><a href="#">Сертификация железнодорожной продукции</a></li>
               </ul>
             </li>
             <li><a href="#">Команда</a></li>

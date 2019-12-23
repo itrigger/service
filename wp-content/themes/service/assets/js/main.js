@@ -5,3 +5,10 @@ jQuery(document).ready(function($) {
     position: 'right',
   });
 });
+
+jQuery('.tooltip').tooltipster({
+  arrow: false,
+  side: 'bottom',
+  maxWidth: 400,
+  theme: 'tooltipster-shadow'
+});
