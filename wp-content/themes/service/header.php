@@ -31,7 +31,7 @@ wp_body_open();
 
   <div class="in">
     <div class="pull-left">
-      <div class="logo pull-left"></div>
+      <a href="/" class="logo pull-left"></a>
       <div class="slogan pull-left">Специалист в области железнодорожного транспорта</div>
     </div>
     <div class="pull-right btn-group">
