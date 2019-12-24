@@ -19,8 +19,7 @@
 <body <?php body_class(); ?>>
 
 <!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-  your browser</a> to improve your experience and security.</p>
+<p class="browserupgrade">Вы используете <strong>старую</strong> версию браузера. Пожалуйста, <a href="https://browsehappy.com/">обновите Ваш браузер</a> для правильного отображения сайта.</p>
 <![endif]-->
 <?php
 wp_body_open();
