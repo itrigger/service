@@ -20,15 +20,15 @@
       <div class="flex">
         <div class="b1">
           <ul class="foot-menu">
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Команда</a></li>
-            <li><a href="#">Кейсы</a></li>
-            <li><a href="#">Документы</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="/about">О нас</a></li>
+            <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia">Услуги</a></li>
+            <li><a href="/people/">Команда</a></li>
+            <li><a href="/category/cases/">Кейсы</a></li>
+            <li><a href="/docs/">Документы</a></li>
+            <li><a href="/contacts/">Контакты</a></li>
           </ul>
         </div>
-        <div class="b2">+7 975 758 98 89</div>
+        <div class="b2">+7 495 369 38 77</div>
         <div class="b3">
           <a href="#" class="btn btn-grey">Заказать звонок</a>
         </div>

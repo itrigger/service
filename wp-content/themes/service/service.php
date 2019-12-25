@@ -12,17 +12,18 @@ get_header(); ?>
           <ul>
             <li>
               Присвоение условных номеров клеймения
-              <div class="more_w"><a href="#" class="more"><span>Подробнее</span></a></div>
+              <div class="more_w"><a href="/prisvoenie-uslovnyh-nomerov-kleimenia" class="more"><span>Подробнее</span></a></div>
             </li>
             <li>
               Аттестация цехов ремонтных предприятий
-              <div class="more_w"><a href="#" class="more"><span>Подробнее</span></a></div>
+              <div class="more_w"><a href="/attestacia-cehov-remontnyh-predpriyatii" class="more"><span>Подробнее</span></a></div>
             </li>
             <li class="active">
               Сертификация железнодорожной продукции
-              <div class="more_w"><a href="#" class="more"><span>Подробнее</span></a></div>
+              <div class="more_w"><a href="/sertifikacia-jd-produkcii" class="more"><span>Подробнее</span></a></div>
             </li>
           </ul>
+
         </div>
         <div class="content_right">
           <?php

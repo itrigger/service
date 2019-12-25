@@ -1337,7 +1337,9 @@ body.home .topmenu_w {
     position: relative;
     float: right;
     text-decoration: none;
-    transition: 0.3s all; }
+    transition: 0.3s all;
+    font-size: 16px;
+    line-height: 26px; }
     .more_w a:before {
       content: '';
       display: block;
@@ -1347,6 +1349,7 @@ body.home .topmenu_w {
       background-size: 105px 16px; }
     .more_w a span {
       font-size: 13px;
+      line-height: inherit;
       color: #0034D6;
       opacity: 0;
       transition: 0.3s all; }
@@ -1839,12 +1842,16 @@ body.home {
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 90px; }
-  .content_right h1 {
+  .content_right .entry-categories {
+    display: none; }
+  .content_right h2 {
     font-family: "Rubik-Medium", sans-serif;
     font-weight: normal;
     font-size: 35px;
     line-height: 43px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    margin-top: 0;
+    width: 80%; }
   .content_right h1.entry-title {
     margin-top: 0;
     width: 80%; }
@@ -1923,6 +1930,9 @@ body.home {
   border-radius: 50%;
   text-align: center;
   border: 1px solid #0049DA; }
+
+.post-edit-link, nav.pagination-single {
+  display: none; }
 
 .pattern-block {
   margin: 30px -45px -35px;
@@ -2005,14 +2015,14 @@ body.home {
     font-size: 15px;
     color: #808080; }
 
-.page-template-cases .content_left .header {
+.post-template-cases .content_left .header {
   font-size: 20px;
   font-family: "Rubik-Medium", sans-serif;
   margin-top: 22px; }
-.page-template-cases .content_left p {
+.post-template-cases .content_left p {
   font-size: 15px;
   color: #808080; }
-.page-template-cases .content_right {
+.post-template-cases .content_right {
   overflow: visible; }
 
 .review_block {
@@ -2094,11 +2104,13 @@ body.home {
 
 .page-template-contacts .content,
 .page-template-about .content,
-.page-template-docs .content {
+.page-template-docs .content,
+.page-template-cases-cat .content,
+.category-2 .content {
   padding-bottom: 40px;
   padding-top: 30px; }
 
-.page-template-about h1.entry-title {
+.page-template-about h2.entry-title {
   display: none; }
 .page-template-about .pattern-block {
   margin: 0px -45px 50px;
@@ -2111,7 +2123,7 @@ body.home {
     font-size: 18px;
     font-family: "Rubik-Medium", sans-serif; }
 
-.page-template-docs h1.entry-title {
+.page-template-docs h2 .entry-title {
   display: none; }
 
 .flex-c-w-1-3 {
@@ -2147,5 +2159,25 @@ body.home {
   text-transform: uppercase;
   text-align: center;
   padding-top: 2px; }
+
+.category-2 .entry-categories {
+  display: none; }
+.category-2 h1.entry-title {
+  display: none; }
+
+.post-template-cases .flex-c-w-1-3 {
+  padding: 0;
+  border-left: none; }
+
+.case_w {
+  font-size: 26px;
+  line-height: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; }
+  .case_w .more_w {
+    margin-top: 10px; }
+  .case_w:last-child {
+    border-bottom: none; }
 
 /*# sourceMappingURL=main.css.map */

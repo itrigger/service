@@ -1578,7 +1578,8 @@ body.home{
     float: right;
     text-decoration: none;
     transition: 0.3s all;
-
+    font-size: 16px;
+    line-height: 26px;
     &:before {
       content: '';
       display: block;
@@ -1590,6 +1591,7 @@ body.home{
 
     span {
       font-size: 13px;
+      line-height: inherit;
       color: $blue;
       opacity: 0;
       transition: 0.3s all;
@@ -2255,12 +2257,16 @@ body.home{
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 90px;
-  h1{
+  .entry-categories{
+    display: none;}
+  h2{
     font-family: $rubik-medium;
     font-weight: normal;
     font-size: 35px;
     line-height: 43px;
     margin-bottom: 25px;
+    margin-top: 0;
+    width: 80%;
   }
   h1.entry-title{
     margin-top: 0;
@@ -2356,6 +2362,9 @@ body.home{
     text-align: center;
     border: 1px solid #0049DA;
   }
+}
+.post-edit-link, nav.pagination-single{
+  display: none;
 }
 .pattern-block{
   margin: 30px -45px -35px;
@@ -2456,7 +2465,7 @@ body.home{
   }
 }
 
-.page-template-cases{
+.post-template-cases{
   .content_left{
     .header{
       font-size: 20px;
@@ -2569,7 +2578,9 @@ body.home{
 
 .page-template-contacts,
 .page-template-about,
-.page-template-docs
+.page-template-docs,
+.page-template-cases-cat,
+.category-2
 {
   .content{
     padding-bottom: 40px;
@@ -2578,7 +2589,7 @@ body.home{
 }
 
 .page-template-about{
-  h1.entry-title{display:none;}
+  h2.entry-title{display:none;}
   .pattern-block{
     margin: 0px -45px 50px;
     font-size: 20px;
@@ -2595,7 +2606,7 @@ body.home{
 }
 
 .page-template-docs {
-  h1.entry-title {
+  h2 .entry-title {
     display: none;
   }
 }
@@ -2641,6 +2652,34 @@ body.home{
   }
 }
 
+.category-2{
+  .entry-categories{
+    display: none;
+  }
+  h1.entry-title{
+    display: none;
+  }
+
+}
+.post-template-cases{
+  .flex-c-w-1-3{
+    padding: 0;
+    border-left: none;
+  }
+}
+.case_w{
+  font-size: 26px;
+  line-height: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  .more_w{
+    margin-top: 10px;
+  }
+  &:last-child{
+    border-bottom:  none;
+  }
+}
 @media (min-width: 1024px) and (max-width: 1440px) {
 
 }
