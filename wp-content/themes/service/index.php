@@ -19,7 +19,7 @@ get_header();
 
     <div class="in2">
       <div class="services-block">
-        <div class="header">Наши <a href="/services">услуги</a></div>
+        <div class="header">Наши <a href="/prisvoenie-uslovnyh-nomerov-kleimenia/">услуги</a></div>
         <div class="flex-w">
           <div class="flex3 ico1">
             <div class="li-content">
@@ -71,7 +71,7 @@ get_header();
           </div>
           <div class="flex-el">
             <div class="flex-el-in">
-              <div class="more_w long"><a href="#" class="more"><span>Подробнее о нас</span></a></div>
+              <div class="more_w long"><a href="/about/" class="more"><span>Подробнее о нас</span></a></div>
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ get_header();
             </div>
           </div>
           <div class="center">
-            <a href="#" class="btn btn-yellow">Решение и результат</a>
+            <a href="/создание-пункта-текущего-отцепочног/" class="btn btn-yellow">Решение и результат</a>
           </div>
         </div>
       </div>

@@ -2393,6 +2393,9 @@ body.home{
   &.flex-flow-wrap{
     flex-flow: wrap;
   }
+  &.flex-justify-sb{
+   justify-content: space-between;
+  }
   &>.bordered{
     position: relative;
     margin-bottom: 30px;
@@ -2417,6 +2420,10 @@ body.home{
     width: 66%;
     min-width: 66%;
   }
+.flex-c-w-1-6{
+  width: 15%;
+  min-width: 15%;
+}
 
 
 
@@ -2580,7 +2587,8 @@ body.home{
 .page-template-about,
 .page-template-docs,
 .page-template-cases-cat,
-.category-2
+.category-2,
+.page-template-people
 {
   .content{
     padding-bottom: 40px;
@@ -2680,6 +2688,28 @@ body.home{
     border-bottom:  none;
   }
 }
+
+
+.page-template-people{
+  .pattern-block{
+    margin-bottom: 0;
+  }
+  h2.entry-title{
+    display: none;
+  }
+  .flex-c-w-1-6{
+    font-size: 15px;
+    line-height: 19px;
+    color: #808080;
+    .header{
+      font-size: 18px;
+      color: #000;
+      line-height: 22px;
+    }
+  }
+
+}
+
 @media (min-width: 1024px) and (max-width: 1440px) {
 
 }
