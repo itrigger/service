@@ -13,7 +13,7 @@ get_header();
       <div class="in">
         <h1>Обеспечим юриди-<br/> ческую защиту<br/> вашего бизнеса</h1>
         <span class="mobile-header">Обеспечим юридическую защиту вашего бизнеса</span>
-        <a href="#" class="btn btn-yellow">Получить консультацию</a>
+        <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn btn-yellow">Получить консультацию</a>
       </div>
     </div>
 
@@ -135,18 +135,7 @@ get_header();
         <div class="in">
           <div class="form">
               <div class="header">У вас есть вопросы?</div>
-            <div>
-                <input type="text"placeholder="Имя" />
-            </div>
-            <div>
-              <input type="text"placeholder="Email или телефон" />
-            </div>
-            <div>
-              <textarea placeholder="Вопрос"></textarea>
-            </div>
-            <div>
-              <input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit">
-            </div>
+                <?php echo do_shortcode('[contact-form-7 id="71" title="Получить консультацию"]'); ?>
           </div>
         </div>
       </div>

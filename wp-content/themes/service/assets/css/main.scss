@@ -948,6 +948,14 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
   }
+  label{
+    display: block;
+    white-space: normal;
+    margin-bottom: 10px;
+  }
+  input[type=radio],.wpcf7-list-item-label{
+    font-family: $rubik-medium;
+  }
 }
 input[type=submit]{
   color: #fff;
@@ -2588,7 +2596,8 @@ body.home{
 .page-template-docs,
 .page-template-cases-cat,
 .category-2,
-.page-template-people
+.page-template-people,
+.page-template-poll
 {
   .content{
     padding-bottom: 40px;
@@ -2708,6 +2717,34 @@ body.home{
     }
   }
 
+}
+
+span.wpcf7-not-valid-tip{
+  display: none;
+}
+.form{
+  input.wpcf7-not-valid{
+    border-color: red;
+  }
+  .wpcf7-response-output{
+    max-width: 360px;
+  }
+}
+.map .form{
+  .wpcf7-response-output{
+    max-width: 200px;
+    position: absolute;
+    margin: 0;
+    right: 50px;
+    bottom: 50px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.page-template-poll{
+  h2.entry-title{
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {

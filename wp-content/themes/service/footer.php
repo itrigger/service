@@ -30,7 +30,7 @@
         </div>
         <div class="b2">+7 495 369 38 77</div>
         <div class="b3">
-          <a href="#" class="btn btn-grey">Заказать звонок</a>
+          <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-grey">Заказать звонок</a>
         </div>
         <div class="b4">
           <ul class="social-links">
@@ -61,6 +61,33 @@
 <script src="/wp-content/themes/service/assets/js/plugins.js"></script>
 <script src="/wp-content/themes/service/assets/js/vendor/stellarnav.min.js"></script>
 <script src="/wp-content/themes/service/assets/js/vendor/tooltipster.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="/wp-content/themes/service/assets/js/main.js"></script>
+
+<div style="display: none;" id="hidden-content">
+  <div class="form">
+    <div class="header">Получить консультацию</div>
+    <?php echo do_shortcode('[contact-form-7 id="71" title="Получить консультацию"]'); ?>
+  </div>
+</div>
+<div style="display: none;" id="leave-req">
+  <div class="form">
+    <div class="header">Оставить заявку</div>
+    <?php echo do_shortcode('[contact-form-7 id="73" title="Оставить заявку"]'); ?>
+  </div>
+</div>
+<div style="display: none;" id="callmeback">
+  <div class="form">
+    <div class="header">Заказать звонок</div>
+    <?php echo do_shortcode('[contact-form-7 id="72" title="Заказать звонок"]'); ?>
+  </div>
+</div>
+<div style="display: none;" id="poll">
+  <div class="form">
+    <div class="header">Анкета</div>
+    <?php echo do_shortcode('[contact-form-7 id="74" title="Анкета"]'); ?>
+  </div>
+</div>
+
 </body>
 </html>

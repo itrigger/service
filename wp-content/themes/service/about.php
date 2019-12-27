@@ -85,7 +85,7 @@ get_header(); ?>
           </div>
 
           <div class="center">
-            <a href="#" class="btn btn-yellow">Оставить заявку</a>
+            <a data-fancybox data-src="#leave-req" href="javascript:;" class="btn btn-yellow">Оставить заявку</a>
           </div>
 
 

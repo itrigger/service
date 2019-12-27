@@ -759,6 +759,12 @@ body {
   margin-bottom: 17px;
   border: 1px solid #ccc;
   padding: 20px; }
+.form label {
+  display: block;
+  white-space: normal;
+  margin-bottom: 10px; }
+.form input[type=radio], .form .wpcf7-list-item-label {
+  font-family: "Rubik-Medium", sans-serif; }
 
 input[type=submit] {
   color: #fff;
@@ -2113,7 +2119,8 @@ body.home {
 .page-template-docs .content,
 .page-template-cases-cat .content,
 .category-2 .content,
-.page-template-people .content {
+.page-template-people .content,
+.page-template-poll .content {
   padding-bottom: 40px;
   padding-top: 30px; }
 
@@ -2199,5 +2206,25 @@ body.home {
     font-size: 18px;
     color: #000;
     line-height: 22px; }
+
+span.wpcf7-not-valid-tip {
+  display: none; }
+
+.form input.wpcf7-not-valid {
+  border-color: red; }
+.form .wpcf7-response-output {
+  max-width: 360px; }
+
+.map .form .wpcf7-response-output {
+  max-width: 200px;
+  position: absolute;
+  margin: 0;
+  right: 50px;
+  bottom: 50px;
+  font-size: 12px;
+  line-height: 16px; }
+
+.page-template-poll h2.entry-title {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

@@ -14,6 +14,9 @@
   <?php wp_head(); ?>
 
   <link rel="stylesheet" href="/wp-content/themes/service/assets/css/main.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -34,7 +37,7 @@ wp_body_open();
       <div class="slogan pull-left">Специалист в области железнодорожного транспорта</div>
     </div>
     <div class="pull-right btn-group">
-      <a href="#" class="btn btn-blue">Заказать звонок</a>
+      <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-blue">Заказать звонок</a>
       <a href="#" class="btn btn-2-line">Коммерческое предложение</a>
     </div>
     <div class="clearfix"></div>
