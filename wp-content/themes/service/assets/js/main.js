@@ -66,7 +66,26 @@ jQuery(document).ready(function($) {
       counterPrev = 4;
     }
   })
+
+
+  active_menu();
+
 });
+
+function active_menu() {
+  var url = window.location.href;
+  jQuery('.topmenu_w a').filter(function() {
+    return this.href == url;
+  }).parents("li").addClass('active');
+  var active = jQuery('.topmenu_w .stellarnav>ul>li.has-sub>ul>li.active>a').attr('href');
+  console.log(active);
+  jQuery('.left-menu li').each(function () {
+    console.log(jQuery(this).find('a').attr('href'));
+    if(jQuery(this).find('a').attr('href') == active){
+      jQuery(this).addClass('active');
+    }
+  })
+}
 
 jQuery('.tooltip').tooltipster({
   arrow: false,

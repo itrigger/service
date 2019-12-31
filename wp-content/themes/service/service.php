@@ -9,18 +9,18 @@ get_header(); ?>
       <div class="flex_w_col">
         <div class="content_left">
           <div class="header">Услуги</div>
-          <ul>
+          <ul class="left-menu">
             <li>
               Присвоение условных номеров клеймения
-              <div class="more_w"><a href="/prisvoenie-uslovnyh-nomerov-kleimenia" class="more"><span>Подробнее</span></a></div>
+              <div class="more_w"><a href="/prisvoenie-uslovnyh-nomerov-kleimenia/" class="more"><span>Подробнее</span></a></div>
             </li>
             <li>
               Аттестация цехов ремонтных предприятий
-              <div class="more_w"><a href="/attestacia-cehov-remontnyh-predpriyatii" class="more"><span>Подробнее</span></a></div>
+              <div class="more_w"><a href="/attestacia-cehov-remontnyh-predpriyatii/" class="more"><span>Подробнее</span></a></div>
             </li>
-            <li class="active">
+            <li>
               Сертификация железнодорожной продукции
-              <div class="more_w"><a href="/sertifikacia-jd-produkcii" class="more"><span>Подробнее</span></a></div>
+              <div class="more_w"><a href="/sertifikacia-jd-produkcii/" class="more"><span>Подробнее</span></a></div>
             </li>
           </ul>
 
@@ -84,15 +84,7 @@ get_header(); ?>
             <div class="pattern-block-in">
               <div class="header">Получите консультацию</div>
               <div class="form">
-                <div class="flex-common-wrap">
-                  <div class="flex-c-w-1-2">
-                    <input type="text" placeholder="Имя"/>
-                  </div>
-                  <div class="flex-c-w-1-2">
-                    <input type="text" placeholder="Телефон"/>
-                  </div>
-                </div>
-                <input type="submit" class="btn btn-bordered" value="Отправить"/>
+                <?php echo do_shortcode('[contact-form-7 id="77" title="Получить консультацию 2"]'); ?>
               </div>
             </div>
           </div>

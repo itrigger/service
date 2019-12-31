@@ -30,7 +30,7 @@ wp_body_open();
 <div class="body_wrapper">
 
 <header id="site-header" class="header-footer-group" role="banner">
-
+  <div class="mobileHeader"><a href="/" class="logo"></a></div>
   <div class="in">
     <div class="pull-left">
       <a href="/" class="logo pull-left"></a>
@@ -48,25 +48,25 @@ wp_body_open();
       <div class="pull-left">
         <div class="stellarnav">
           <ul>
-            <li><a href="/about/">О нас</a></li>
-            <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia">Услуги</a>
+            <li><a href="/about/"><span>О нас</span></a></li>
+            <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia/"><span>Услуги</span></a>
               <ul>
-                <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia">Присвоение условных номеров клеймения</a></li>
-                <li class="active"><a href="/attestacia-cehov-remontnyh-predpriyatii">Аттестация цехов ремонтных предприятий</a>
+                <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia/">Присвоение условных номеров клеймения</a></li>
+                <li><a href="/attestacia-cehov-remontnyh-predpriyatii/">Аттестация цехов ремонтных предприятий</a>
                   <ul>
-                    <li><a href="/attestacia-telejechnyh-otdelenii">Аттестация тележечных отделений</a></li>
-                    <li><a href="/attestacia-kolesno-rolikovyh-uchastkov">Аттестация колесно-роликовых участков</a></li>
-                    <li class="active"><a href="/attestacia-kontrolnyh-punktov-avtotormozov">Аттестация контрольных пунктов автотормозов и автоматных отделений</a></li>
-                    <li><a href="/attestacia-uchastkov-nerazrushauschego-kontrolya">Аттестация участков неразрущающего контроля</a></li>
+                    <li><a href="/attestacia-telejechnyh-otdelenii/">Аттестация тележечных отделений</a></li>
+                    <li><a href="/attestacia-kolesno-rolikovyh-uchastkov/">Аттестация колесно-роликовых участков</a></li>
+                    <li><a href="/attestacia-kontrolnyh-punktov-avtotormozov/">Аттестация контрольных пунктов автотормозов и автоматных отделений</a></li>
+                    <li><a href="/attestacia-uchastkov-nerazrushauschego-kontrolya/">Аттестация участков неразрущающего контроля</a></li>
                   </ul>
                 </li>
-                <li><a href="/sertifikacia-jd-produkcii">Сертификация железнодорожной продукции</a></li>
+                <li><a href="/sertifikacia-jd-produkcii/">Сертификация железнодорожной продукции</a></li>
               </ul>
             </li>
-            <li><a href="/people/">Команда</a></li>
-            <li><a href="/category/cases/">Кейсы</a></li>
-            <li><a href="/docs/">Документы</a></li>
-            <li><a href="/contacts/">Контакты</a></li>
+            <li><a href="/people/"><span>Команда</span></a></li>
+            <li><a href="/category/cases/"><span>Кейсы</span></a></li>
+            <li><a href="/docs/"><span>Документы</span></a></li>
+            <li><a href="/contacts/"><span>Контакты</span></a></li>
           </ul>
         </div>
       </div>

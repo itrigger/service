@@ -766,6 +766,7 @@ body {
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
+  position: relative;
 }
 
 .in2 {
@@ -1058,11 +1059,14 @@ body.home .slogan{
 }
 
 .stellarnav > ul > li {
-  display: inline-block
+  display: inline-block;
+  &.active>a>span{
+    background: rgba(255, 157, 0, 0.3);
+  }
 }
 
 .stellarnav > ul > li > a {
-  padding: 20px 40px
+  padding: 20px 40px;
 }
 
 .stellarnav ul ul {
@@ -1533,13 +1537,17 @@ body.stellarnav-noscroll-x {
     padding-right: 6px;
   }
 }
-
+.flex1-3.ico5 i{
+  background: url("../images/quest.svg") 0 0 no-repeat;
+}
 
 @media only screen and (max-width: 1000px) {
   .stellarnav > ul > li > a {
-    padding: 20px 23px;
+    padding: 20px 20px;
   }
 }
+
+
 
 .topmenu_w {
   margin-top: 15px;
@@ -1622,7 +1630,6 @@ body.home{
 
   &:hover {
     width: 105px;
-
     span {
       opacity: 1;
       transition: 0.3s all;
@@ -2747,10 +2754,210 @@ span.wpcf7-not-valid-tip{
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+.fancybox-content{
+  border-radius: 10px;
+}
+.mobileHeader{
+  display: none;}
+@media (min-width: 980px) and (max-width: 1239px) {
+  .slogan{
+    max-width: 260px;
+    padding-top: 10px;
+  }
+  .topmenu_w .pull-left{
+    padding-left: 0;
+  }
+  .in{
+    width: 100%;
+  }
 
+  .contact-block .line{
+    justify-content: center;
+  }
+  .contact-block .line > div{
+    margin-bottom: 20px;
+  }
+  #site-footer .line1 .flex>div{
+    margin-bottom: 20px;
+  }
+  .form .flex-common-wrap{
+    flex-wrap: wrap;
+  }
+  .benefits-block .flex1-2 > div:before{
+    transform: scale(0.75);
+  }
+  .benefits-block .flex > div > div{
+    padding: 17px 30px 17px 65px;
+  }
+  .benefits-block .ico1 > div:before{left: -5px;}
+  .benefits-block .ico2 > div:before{left: -5px;}
+  .benefits-block .ico3 > div:before{left: -5px;}
+  .benefits-block .ico4 > div:before{left: -5px;}
+  .benefits-block .ico5 > div:before{left: -5px;}
+  .benefits-block .ico6 > div:before{left: -5px;}
+  .pattern-block-in{padding: 40px 25px 46px;}
+  .page-template-people .flex-c-w-1-6 .header{font-size: 16px; line-height: 20px;}
+  .page-template-people .flex-c-w-1-6{font-size: 13px; line-height: 17px;}
+  .result_r .num{
+    font-size: 60px;
+  }
+  .result_r .num span{
+    display: inline-block;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .contact-block .line .b1{
+    padding-right: 20px;
+  }
+  .contact-block .line .b2{
+    padding-right: 20px;
+  }
+  .page-template-contacts .contact-block .line{
+    margin-bottom: 25px;
+  }
 }
 
-@media (min-width: 376px) and (max-width: 1023px) {
+@media (min-width: 320px) and (max-width: 979px) {
+  .in{
+    width: 100%;
+  }
+  .pull-left{
+    float: none;
+  }
+  .pull-right{
+    float: none;
+  }
+  #site-header .pull-right{
+    float: none;
+  }
+  #site-header .pull-right a{
+    padding: 17px 10px;
+    float: none;
+  }
+  #site-header .pull-right a.btn.btn-2-line{
+    max-width: 128px;
+    padding: 9px 10px;
+  }
+  .slogan{
+    margin-left: 0;
+    padding: 20px 10px 10px;
+    border-left: none;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .logo{
+    width: 271px !important;
+    margin: 3px auto 0;
+  }
+  #site-header .pull-right.btn-group{
+    display: flex;
+    justify-content: center;
+  }
+  .topmenu_w .pull-left{
+    padding-left: 0;
+  }
+  .stellarnav > ul > li.active > a > span{
+    background: transparent;
+  }
+  .stellarnav.mobile.light li a{
+    font-size: 16px;
+  }
+  .stellarnav.light ul ul ul{
+    margin-left: 0;
+  }
+  .flex3, .flex2-3, .flex1-3{
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .services-block .header, .benefits-block .header, .contact-block .header, .cases-block .header{
+    font-size: 20px;
+  }
+  .services-block .li-content{
+    padding: 18px 40px 0 55px;
+  }
+  .services-block .li-content .text{
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+  .services-block .ico1:before{
+    background-size: 41px 41px;
+    width: 41px; height: 41px;
+  }
+  .services-block .ico2:before{
+    background-size: 41px 41px;
+    width: 41px; height: 41px;
+  }
+  .services-block .ico3:before{
+    background-size: 41px 41px;
+    width: 41px; height: 41px;
+  }
+  .header-text-block h1{
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .topmenu_w{
+    display: flex;
+  }
+  .mobileHeader{
+    width: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(#000, 0.1);
+    z-index: 98;
+    padding: 15px 0;
+    .logo{
+      margin-left: 15px;
+    }
+  }
+  .stellarnav.mobile{
+    position: fixed;
+    top: 25px;
+    right: 0px;
+    display: inline-block;
+    width: auto;
+    a.menu-toggle{padding: 10px;}
+  }
+  .stellarnav .menu-toggle span.bars span{
+    width: 22px;
+    height: 3px;
+  }
+  .more_w.prev{
+    width: 25px;
+  }
+  .cases-block{
+    padding: 26px 20px 100px;
+  }
+  .cases-block .top{
+    flex-wrap: wrap;
+  }
+  .cases-block .case{
+    margin: 34px auto 35px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .cases-block .case .pull-left{
+    width: 100%;
+    min-width: auto;
+    margin-bottom: 20px;
+  }
+  .more_w:hover {
+    width: 25px;
+    span {
+      opacity: 0;
+      transition: 0.3s all;
+    }
+    &.prev a {
+      transition: 0.3s all;
+      left: 80px;
+    }
+  }
+}
 
+.stellarnav.mobile.left > ul, .stellarnav.mobile.right > ul{
+  z-index: 99;
 }
