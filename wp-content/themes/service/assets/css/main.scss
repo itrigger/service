@@ -993,6 +993,10 @@ input[type=submit]{
   }
 }
 
+body.home #site-header{
+  box-shadow: none;
+}
+
 .logo {
   background: url(../images/logo.svg) 0 0 no-repeat;
   background-size: 271px 46px;
@@ -1573,6 +1577,14 @@ body.stellarnav-noscroll-x {
       top: 9px;
     }
   }
+}
+
+#site-header .tel a{
+  text-decoration: none;
+  border-bottom: none;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  color: #000;
 }
 
 body.home{
@@ -2831,6 +2843,16 @@ span.wpcf7-not-valid-tip{
   #site-header .pull-right{
     float: none;
   }
+  .topmenu_w{
+    .pull-right{
+      width: 100%;
+      text-align: center;
+    }
+    .tel{
+      margin: 16px auto 0;
+      display: inline-block;
+    }
+  }
   #site-header .pull-right a{
     padding: 17px 10px;
     float: none;
@@ -2956,8 +2978,77 @@ span.wpcf7-not-valid-tip{
       left: 80px;
     }
   }
-}
+  .header-text-block{
+    padding: 30px 22px 52px;
+    max-width: 370px;
+    margin: 0 auto;
+  }
+  .benefits-block .ico5:before, .benefits-block .flex2-3:before, .benefits-block .ico2:before, .benefits-block .ico3:before{display: none;}
+  .benefits-block .ico5 > div, .benefits-block .flex2-3 > div, .benefits-block .ico2 > div, .benefits-block .ico3 > div{border-right: none;}
+  .benefits-block .flex-el .more_w{margin-top: 0;}
+
+  .contact-block .line > div{
+    margin-bottom: 20px;
+  }
+  .contact-block .line .b1{
+    padding-right: 20px;
+  }
+  .map{
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .map:before{
+    display: none;
+  }
+  .map iframe{
+    height: 400px;
+    position: relative;
+  }
+  .map .form{
+    width: 100%;
+    right: 0;
+    padding: 20px;
+    left: 0;
+    position: relative;
+    margin-top: 20px;
+  }
+  .form{
+    input[type=text], textarea{
+      width: 100%;
+    }
+  }
+  .map .form .wpcf7-response-output{
+    max-width: 100%;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: 20px;
+  }
+  #site-footer .line1 .flex{
+    flex-direction: column;
+  }
+  #site-footer .line1 .flex>div, #site-footer .line2 .flex>div{
+    margin-bottom: 20px;
+  }
+  .entry-content ol.horizontal{
+    flex-direction: column;
+  }
+  .entry-content ol.horizontal li{
+    padding-right: 20px;
+  }
+  .flex-common-wrap.flex-justify-sb{
+    flex-direction: column;
+  }
+  .flex-c-w-1-6{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .page-template-people .flex-c-w-1-6{
+    margin-bottom: 30px;
+  }
+} /*---320-979---*/
 
 .stellarnav.mobile.left > ul, .stellarnav.mobile.right > ul{
   z-index: 99;
 }
+

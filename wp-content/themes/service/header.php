@@ -71,7 +71,7 @@ wp_body_open();
         </div>
       </div>
       <div class="pull-right">
-        <div class="tel">+7 495 369 38 77</div>
+        <div class="tel"><a href="tel:84953693877">+7 495 369 38 77</a></div>
       </div>
       <div class="clearfix"></div>
     </div>
