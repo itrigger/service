@@ -2233,7 +2233,7 @@ body.home{
 }
 
 body.home{
-  background: url('../images/mpbg.jpg') center top no-repeat;
+  background: url('../images/mpbg.jpg') right top no-repeat;
 }
 
 .flex_w_col{
@@ -2831,6 +2831,9 @@ span.wpcf7-not-valid-tip{
 }
 
 @media (min-width: 320px) and (max-width: 979px) {
+  body.home{
+    background: url('../images/mpbg.jpg') center top no-repeat;
+  }
   .in{
     width: 100%;
   }
@@ -3046,6 +3049,24 @@ span.wpcf7-not-valid-tip{
   .page-template-people .flex-c-w-1-6{
     margin-bottom: 30px;
   }
+  .content_wide{
+    padding: 20px;
+  }
+  .in2{
+    padding: 0;
+  }
+  .benefits-block .flex > div > div{
+    padding: 17px 0px 17px 95px;
+  }
+  .ico1 > div:before { left: 0; }
+  .ico2 > div:before { left: 0; }
+  .ico3 > div:before { left: 0; }
+  .ico4 > div:before { left: 0; }
+  .ico5 > div:before { left: 0; }
+  .ico6 > div:before { left: 0; }
+
+
+
 } /*---320-979---*/
 
 .stellarnav.mobile.left > ul, .stellarnav.mobile.right > ul{
