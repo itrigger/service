@@ -3052,11 +3052,11 @@ span.wpcf7-not-valid-tip{
   .content_wide{
     padding: 20px;
   }
-  .in2{
+  .content_wide .benefits-block .in2{
     padding: 0;
   }
   .benefits-block .flex > div > div{
-    padding: 17px 0px 17px 95px;
+    padding: 17px 0 17px 95px;
   }
   .ico1 > div:before { left: 0; }
   .ico2 > div:before { left: 0; }
@@ -3065,6 +3065,62 @@ span.wpcf7-not-valid-tip{
   .ico5 > div:before { left: 0; }
   .ico6 > div:before { left: 0; }
 
+  .header-text-block .btn{
+    padding: 21px 27px;
+  }
+  body.home .slogan{
+    border-left: none;
+  }
+  .services-block {
+    .ico1:after, .ico2:after, .ico3:after{
+      display: none;
+    }
+  }
+  .services-block{
+    padding: 20px 0 20px 20px;
+  }
+  .flex_w_col{
+    flex-wrap: wrap;
+    justify-content: normal;
+    flex-direction: column;
+  }
+  .flex_w_col .content_left{
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 33px;
+  }
+  .flex_w_col .content_right{
+    padding: 20px;
+    margin-top: 0;
+  }
+  .content_right .benefits-block .flex1-2{
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+  .pattern-block-in .form input[type=text]{
+    width: 100%;
+  }
+  .flex-common-wrap{
+    flex-direction: column;
+  }
+  .content_right .in2{
+    padding: 0;
+  }
+  .content_right blockquote{
+    padding: 85px 0 30px 0;
+  }
+  .entry-content ol{
+    padding-left: 0;
+  }
+  .entry-content ol li{
+    margin: 90px 0 44px 0;
+  }
+  .entry-content ol li::before{
+    left: 0;
+    top: calc(-1 * var(--size) - 15px);
+  }
 
 
 } /*---320-979---*/
