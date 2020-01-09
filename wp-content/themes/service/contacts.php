@@ -11,9 +11,9 @@ get_header(); ?>
        <div class="content_wide">
          <div class="contact-block">
              <div class="line flex">
-               <div class="b1">Москва, Маслова пр-т, д. 46, оф. 6</div>
+               <div class="b1">Москва, Маслова&nbsp;пр-т, д.&nbsp;46, оф.&nbsp;6</div>
                <div class="b2"><a href="mailto:info@rk-company.ru">info@rk-company.ru</a></div>
-               <div class="b3">+7 975 758 98 89<span class="spacer"></span>+7 913 678 45 98</div>
+               <div class="b3">+7&nbsp;975&nbsp;758&nbsp;98&nbsp;89<span class="spacer"></span>+7&nbsp;913&nbsp;678&nbsp;45&nbsp;98</div>
                <div class="b4">
                  <ul class="social-links">
                    <li><a href="#" class="ico-vk"></a></li>
